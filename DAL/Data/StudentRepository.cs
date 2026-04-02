@@ -27,6 +27,7 @@ namespace DAL.Data
             const string sql = """
                                SELECT StudentID, StudentName, StudentSurename, StudentEmail 
                                FROM Student
+                               ORDER BY StudentName
                                """;
             await using var connection = new SqlConnection(_connectionString);
             await using var command = new SqlCommand(sql, connection);

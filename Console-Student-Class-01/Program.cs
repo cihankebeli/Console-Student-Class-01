@@ -114,7 +114,7 @@ namespace Console_Student_Class_01
                 }
             }
 
-            Console.ReadLine();
+            // Console.ReadLine();
         }
     }
 }
